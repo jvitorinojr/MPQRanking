@@ -1,26 +1,16 @@
 {
   "name": "Ranking de Jogadores - Mais Que Perfeito",
   "short_name": "Ranking MQP",
-  "description": "Controle de partidas de futebol e ranking acumulativo dos jogadores do time Mais Que Perfeito",
-  "start_url": "/",
+  "description": "Controle de partidas de futebol e ranking acumulativo",
+  "start_url": ".",
+  "scope": ".",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#0f0f23",
   "theme_color": "#1a1a2e",
-  "categories": ["sports", "utilities"],
   "lang": "pt-BR",
   "icons": [
-    {
-      "src": "/icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any maskable"
-    },
-    {
-      "src": "/icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ]
 }
