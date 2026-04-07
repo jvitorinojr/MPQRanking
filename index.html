@@ -13,9 +13,9 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="description" content="Ranking de Jogadores - Mais Que Perfeito" />
 
-    <link rel="manifest" href="manifest.json" />
-    <link rel="apple-touch-icon" href="icon-192.png" />
-    <link rel="icon" href="favicon.ico" />
+    <link rel="manifest" href="/MPQRanking/manifest.json" />
+    <link rel="apple-touch-icon" href="/MPQRanking/icon-192.png" />
+    <link rel="icon" href="/MPQRanking/favicon.ico" />
 
     <style id="expo-reset">
       html, body { height: 100%; margin: 0; padding: 0; background-color: #0f0f23; }
@@ -41,13 +41,13 @@
     <div id="splash"><h1>Mais Que Perfeito</h1><p>Ranking de Jogadores</p><div class="spinner"></div></div>
     <noscript>Habilite o JavaScript para usar este aplicativo.</noscript>
     <div id="root"></div>
-    <script src="_expo/static/js/web/entry-07670c86cb7b14e815210f74b372b92f.js" defer></script>
+    <script src="/MPQRanking/_expo/static/js/web/entry-783b367e913e93633a3b991ddff548df.js" defer></script>
     <script>
       window.addEventListener('load', function() {
         setTimeout(function() { var s = document.getElementById('splash'); if (s) s.style.display = 'none'; }, 1500);
       });
       if ('serviceWorker' in navigator) {
-        window.addEventListener('load', function() { navigator.serviceWorker.register('sw.js').catch(function(){}); });
+        window.addEventListener('load', function() { navigator.serviceWorker.register('/MPQRanking/sw.js').catch(function(){}); });
       }
     </script>
   </body>
