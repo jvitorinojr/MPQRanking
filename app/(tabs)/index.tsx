@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, ScrollView, TouchableOpacity, RefreshControl } 
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { calculateRanking, getGeneralStats, getMatches, RankingEntry, GeneralStats, Match } from '../../src/database/database';
+import { calculateRanking, getGeneralStats, getMatches, RankingEntry, GeneralStats, Match } from '../../src/database';
 import StatCard from '../../src/components/StatCard';
 
 export default function HomeScreen() {

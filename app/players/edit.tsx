@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView, Alert } from 'react-native';
 import { useRouter, useLocalSearchParams } from 'expo-router';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { getPlayerById, updatePlayer } from '../../src/database/database';
+import { getPlayerById, updatePlayer } from '../../src/database';
 import { POSITIONS } from '../../src/utils/helpers';
 
 export default function EditPlayerScreen() {

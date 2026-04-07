@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Alert } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { getMatchById, updateMatchScore, getMatchPlayers } from '../../src/database/database';
+import { getMatchById, updateMatchScore, getMatchPlayers } from '../../src/database';
 
 export default function ScoreScreen() {
   const { matchId } = useLocalSearchParams<{ matchId: string }>();

@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, TextInput, TouchableOpacity, Alert } 
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { getPlayers, deletePlayer, Player } from '../../src/database/database';
+import { getPlayers, deletePlayer, Player } from '../../src/database';
 import PlayerCard from '../../src/components/PlayerCard';
 import EmptyState from '../../src/components/EmptyState';
 

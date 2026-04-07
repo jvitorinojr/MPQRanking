@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, TouchableOpacity, TextInput, Alert } from 'reac
 import { useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { createMatch } from '../../src/database/database';
+import { createMatch } from '../../src/database';
 import { getNextThursday, formatDateFull } from '../../src/utils/helpers';
 
 export default function AddMatchScreen() {

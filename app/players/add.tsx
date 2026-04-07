@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, TextInput, TouchableOpacity, ScrollView, Alert } from 'react-native';
 import { useRouter } from 'expo-router';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { createPlayer } from '../../src/database/database';
+import { createPlayer } from '../../src/database';
 import { POSITIONS } from '../../src/utils/helpers';
 
 export default function AddPlayerScreen() {

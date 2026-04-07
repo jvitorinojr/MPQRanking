@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity, Alert } from 'react
 import { useLocalSearchParams, useRouter, useFocusEffect } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { getPlayers, getMatchPlayers, setMatchLineup, Player, MatchPlayerWithDetails } from '../../src/database/database';
+import { getPlayers, getMatchPlayers, setMatchLineup, Player, MatchPlayerWithDetails } from '../../src/database';
 import { getPositionLabel, getPositionColor } from '../../src/utils/helpers';
 
 type TeamAssignment = 'blue' | 'orange' | 'absent' | null;

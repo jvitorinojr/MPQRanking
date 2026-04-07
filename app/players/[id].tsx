@@ -7,7 +7,7 @@ import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
 import {
   getPlayerById, getPlayerHistory, calculateRanking,
   Player, PlayerMatchHistory, RankingEntry
-} from '../../src/database/database';
+} from '../../src/database';
 import { getPositionLabel, getPositionColor, formatDate } from '../../src/utils/helpers';
 import StatCard from '../../src/components/StatCard';
 

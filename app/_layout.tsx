@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
 import { View, ActivityIndicator, StyleSheet } from 'react-native';
-import { initializeDatabase } from '../src/database/database';
+import { initializeDatabase } from '../src/database';
 import { colors } from '../src/utils/theme';
 
 export default function RootLayout() {

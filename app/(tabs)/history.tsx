@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { getMatches, getMatchPlayers, Match, MatchPlayerWithDetails } from '../../src/database/database';
+import { getMatches, getMatchPlayers, Match, MatchPlayerWithDetails } from '../../src/database';
 import { formatDateFull } from '../../src/utils/helpers';
 import EmptyState from '../../src/components/EmptyState';
 

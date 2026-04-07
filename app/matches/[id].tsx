@@ -6,7 +6,7 @@ import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
 import {
   getMatchById, getMatchPlayers, deleteMatch,
   Match, MatchPlayerWithDetails,
-} from '../../src/database/database';
+} from '../../src/database';
 import { formatDateFull, getPositionLabel, getPositionColor } from '../../src/utils/helpers';
 
 export default function MatchDetailScreen() {

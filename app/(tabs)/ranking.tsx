@@ -3,7 +3,7 @@ import { View, Text, StyleSheet, FlatList, TouchableOpacity } from 'react-native
 import { useFocusEffect, useRouter } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { colors, fontSize, spacing, borderRadius } from '../../src/utils/theme';
-import { calculateRanking, RankingEntry } from '../../src/database/database';
+import { calculateRanking, RankingEntry } from '../../src/database';
 import { getPositionLabel, getPositionColor, getMonthRange, getYearRange } from '../../src/utils/helpers';
 import EmptyState from '../../src/components/EmptyState';
 
